@@ -1,6 +1,6 @@
 //6.	Write a java program to find whether given sentence is Pangram or not. If it is pangram, then print 1 else print -1.A pangram is a sentence containing every letter in the English Alphabet. Ex: The quick brown fox jumps over the lazy Dog.
 import java.util.*;
-public class IsPangram {
+public class IsPangram6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
