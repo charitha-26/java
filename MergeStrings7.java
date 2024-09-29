@@ -9,7 +9,14 @@ public class MergeStrings7 {
 		String word1 = sc.next();
 		String word2 = sc.next();
 		String newStr = "";
-		int minLen = word1.length() < word2.length() ? word1.length() : word2.length();
+		int minLen = 0;
+		if(word1.length() < word2.length()){
+			minLen = word1.length();
+		}
+		else{
+			minLen =  word2.length();
+		}
+		
 		for(int idx = 0; idx < minLen; idx++) {
 			newStr += word1.charAt(idx) + "" + word2.charAt(idx);
 		}
