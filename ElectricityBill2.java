@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class ElectricityBills {
+class ElectricityBills2 {
     private int consumerNo;
     private String consumerName;
     private int previousReading;
